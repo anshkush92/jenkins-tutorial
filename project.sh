@@ -1,1 +1,1 @@
-echo "This is my second project with jenkins, in which I will learn about how to make the project and how to run it with jenkins"
+echo "Github webhook SCM"
