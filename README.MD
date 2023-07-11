@@ -11,4 +11,9 @@ The output when we push something on the branch
 
 To avoid this permission denied, we can use the **chmod** command
 
+Output after doing this
+![Output after using the chmod to run the file](./images/3.png)
+
+Learnt how to use the Github webhook scm with the jenkins, which automatically schedules a job whenever a push is done
+
 <hr/>
