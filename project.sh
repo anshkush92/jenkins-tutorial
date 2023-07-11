@@ -1,1 +1,1 @@
-echo "Github webhook SCM"
+echo "Github webhook SCM - Jenkins Tutorial"
