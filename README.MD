@@ -1,19 +1,18 @@
-Trying to understand how the jenkins is applied when the user has commited
+A Jenkins pipeline is a suite of plugins which supports implementing and integrating continuous delivery pipeline into Jenkins
 
-GithubSCM --> Works whenever there is a github event --> we can specify on which event we want to run the jenkins job
+Jenkins Pipeline --> Flow of the work --> testing --> sonarqube --> owasp zap --> automation of these steps
 
-![Serving the localhost:8080 on the internet using the ngrok](./images/1.png)
+We can create different jobs for different things like for deployment to stage, production
 
-Whenever we push any commit to the reposirtory, it runs the jobs - The job we want to run
+<hr>
 
-The output when we push something on the branch
-![Output of the Job when we push on the branch --> /feature-github-webhook](./images/2.png)
+Two types of pipeline
 
-To avoid this permission denied, we can use the **chmod** command
+<ul> 
+    <li>Declartive Pipeline --> Mostly used</li>
+    <li>Scriptive Pipeline</li>
+</ul>
 
-Output after doing this
-![Output after using the chmod to run the file](./images/3.png)
-
-Learnt how to use the Github webhook scm with the jenkins, which automatically schedules a job whenever a push is done
+<a href="https://www.jenkins.io/doc/book/pipeline"/>Read More About Pipelines - Jenkins</a>
 
 <hr/>

@@ -1,1 +1,1 @@
-echo "Github webhook SCM - Jenkins Tutorial - Why not working ?"
+echo "Learning Jenkins Pipeline - Jenkins"
